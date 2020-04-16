@@ -1,0 +1,129 @@
+[2020-02-27 06:22:19] INFO : Start process.
+[2020-02-27 06:22:19] INFO : Authorization check.
+[2020-02-27 06:22:19] INFO : Duplicate start-up check.
+[2020-02-27 06:22:19] INFO : Reading answer-file.
+[2020-02-27 06:22:20] INFO : -----MODE[INSTALL] START-----
+[2020-02-27 06:22:20] INFO : Installation target : ita_base
+[2020-02-27 06:22:20] INFO : Installation target : ansible_driver
+[2020-02-27 06:22:20] INFO : Installation target : cobbler_driver
+[2020-02-27 06:22:20] INFO : Installation target : openstack_driver
+[2020-02-27 06:22:20] INFO : Installation target : dsc_driver
+[2020-02-27 06:22:20] INFO : Installation target : material
+[2020-02-27 06:22:20] INFO : Installation target : create_param
+[2020-02-27 06:22:20] INFO : Installation target : hostgroup
+[2020-02-27 06:22:20] INFO : 01/58 Set Language.
+[2020-02-27 06:22:20] INFO : 02/58 Create database and user for ITA.
+[2020-02-27 06:22:20] INFO : 03/58 Create tables for ita_base.
+[2020-02-27 06:22:22] INFO : 04/58 Write exastro-it-automation in /etc/hosts.
+[2020-02-27 06:22:22] INFO : 05/58 Place the self-signed certificate for https access.
+[2020-02-27 06:22:22] INFO : 06/58 Place PHP configuration file.
+[2020-02-27 06:22:22] INFO : 07/58 Place Apache(httpd) configuration file.
+[2020-02-27 06:22:22] INFO : 08/58 Create directory to place ITA.
+[2020-02-27 06:22:22] INFO : 09/58 Create directory to store session files.
+[2020-02-27 06:22:22] INFO : 10/58 Create data relay storage for symphony.
+[2020-02-27 06:22:22] INFO : 11/58 Place ITA full functions.
+[2020-02-27 06:22:23] INFO : 12/58 Place release file for ita_base.
+[2020-02-27 06:22:23] INFO : 13/58 Place config files for ita_base.
+[2020-02-27 06:22:23] INFO : 14/58 Create symbolic link of ITA environment file.
+[2020-02-27 06:22:23] INFO : 15/58 Set up services for ita_base.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_data_portability_execute-workflow.service → /usr/lib/systemd/system/ky_data_portability_execute-workflow.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_mail.service → /usr/lib/systemd/system/ky_mail.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_std_checkcondition-linklist.service → /usr/lib/systemd/system/ky_std_checkcondition-linklist.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_std_synchronize-symphony.service → /usr/lib/systemd/system/ky_std_synchronize-symphony.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_cmdbmenuanalysis-workflow.service → /usr/lib/systemd/system/ky_cmdbmenuanalysis-workflow.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_activedirectory_roleuser_replication-workflow.service → /usr/lib/systemd/system/ky_activedirectory_roleuser_replication-workflow.service.
+[2020-02-27 06:22:25] INFO : 16/58 Set up crontab for ita_base.
+no crontab for root
+[2020-02-27 06:22:25] INFO : 17/58 Create data relay storage for Ansible driver.
+[2020-02-27 06:22:25] INFO : 18/58 Create data relay storage for Cobbler driver.
+[2020-02-27 06:22:25] INFO : 19/58 Create tables for Ansible driver.
+[2020-02-27 06:22:27] INFO : 20/58 Create tables for Cobbler driver.
+[2020-02-27 06:22:27] INFO : 21/58 Create tables for OpenStack driver.
+[2020-02-27 06:22:27] INFO : 22/58 Create tables for DSC driver.
+[2020-02-27 06:22:28] INFO : 23/58 Create tables for Material.
+[2020-02-27 06:22:28] INFO : 24/58 Create tables for Material2.
+[2020-02-27 06:22:28] INFO : 25/58 Create tables for Material3.
+[2020-02-27 06:22:28] INFO : 26/58 Create tables for Material5.
+[2020-02-27 06:22:28] INFO : 27/58 Create tables for Createparam.
+[2020-02-27 06:22:29] INFO : 28/58 Create tables for Hostgroup.
+[2020-02-27 06:22:29] INFO : 29/58 Create tables for Hostgroup2.
+[2020-02-27 06:22:29] INFO : 30/58 Create tables for Hostgroup3.
+[2020-02-27 06:22:29] INFO : 31/58 Place release file for Ansible driver.
+[2020-02-27 06:22:29] INFO : 32/58 Place release file for Cobbler driver.
+[2020-02-27 06:22:29] INFO : 33/58 Place release file for OpenStack driver.
+[2020-02-27 06:22:29] INFO : 34/58 Place release file for DSC driver.
+[2020-02-27 06:22:29] INFO : 35/58 Place release file for Material.
+[2020-02-27 06:22:29] INFO : 36/58 Place release file for Material2.
+[2020-02-27 06:22:29] INFO : 37/58 Place release file for Material3.
+[2020-02-27 06:22:29] INFO : 38/58 Place release file for Material5.
+[2020-02-27 06:22:29] INFO : 39/58 Place release file for Createparam.
+[2020-02-27 06:22:29] INFO : 40/58 Place release file for Hostgroup.
+[2020-02-27 06:22:29] INFO : 41/58 Place release file for Hostgroup2.
+[2020-02-27 06:22:29] INFO : 42/58 Place release file for Hostgroup3.
+[2020-02-27 06:22:29] INFO : 43/58 Place config files for Ansible driver.
+[2020-02-27 06:22:29] INFO : 44/58 Place config files for Cobbler driver.
+[2020-02-27 06:22:29] INFO : 45/58 Set up services for Ansible driver.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_legacy_execute-workflow.service → /usr/lib/systemd/system/ky_legacy_execute-workflow.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_legacy_checkcondition-workflow.service → /usr/lib/systemd/system/ky_legacy_checkcondition-workflow.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_legacy_varsautolistup-workflow.service → /usr/lib/systemd/system/ky_legacy_varsautolistup-workflow.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_legacy_valautostup-workflow.service → /usr/lib/systemd/system/ky_legacy_valautostup-workflow.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_legacy_role_execute-workflow.service → /usr/lib/systemd/system/ky_legacy_role_execute-workflow.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_legacy_role_checkcondition-workflow.service → /usr/lib/systemd/system/ky_legacy_role_checkcondition-workflow.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_legacy_role_varsautolistup-workflow.service → /usr/lib/systemd/system/ky_legacy_role_varsautolistup-workflow.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_legacy_role_valautostup-workflow.service → /usr/lib/systemd/system/ky_legacy_role_valautostup-workflow.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_pioneer_execute-workflow.service → /usr/lib/systemd/system/ky_pioneer_execute-workflow.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_pioneer_checkcondition-workflow.service → /usr/lib/systemd/system/ky_pioneer_checkcondition-workflow.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_pioneer_varsautolistup-workflow.service → /usr/lib/systemd/system/ky_pioneer_varsautolistup-workflow.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_pioneer_valautostup-workflow.service → /usr/lib/systemd/system/ky_pioneer_valautostup-workflow.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_ansible_towermasterSync-workflow.service → /usr/lib/systemd/system/ky_ansible_towermasterSync-workflow.service.
+[2020-02-27 06:22:33] INFO : 46/58 Set up services for Cobbler driver.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_cobbler_profileSync_side_ITA.service → /usr/lib/systemd/system/ky_cobbler_profileSync_side_ITA.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_cobbler_profileSync_side_Cobbler.service → /usr/lib/systemd/system/ky_cobbler_profileSync_side_Cobbler.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_cobbler_systemSync_side_ITA.service → /usr/lib/systemd/system/ky_cobbler_systemSync_side_ITA.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_cobbler_systemSync_side_Cobbler.service → /usr/lib/systemd/system/ky_cobbler_systemSync_side_Cobbler.service.
+[2020-02-27 06:22:34] INFO : 47/58 Set up services for OpenStack driver.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_openStack_execute-workflow.service → /usr/lib/systemd/system/ky_openStack_execute-workflow.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_openStack_checkcondition-workflow.service → /usr/lib/systemd/system/ky_openStack_checkcondition-workflow.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_openStack_masterSync-workflow.service → /usr/lib/systemd/system/ky_openStack_masterSync-workflow.service.
+[2020-02-27 06:22:35] INFO : 48/58 Set up services for DSC driver.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_dsc_execute-workflow.service → /usr/lib/systemd/system/ky_dsc_execute-workflow.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_dsc_checkcondition-workflow.service → /usr/lib/systemd/system/ky_dsc_checkcondition-workflow.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_dsc_varsautolistup-workflow.service → /usr/lib/systemd/system/ky_dsc_varsautolistup-workflow.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_dsc_valautostup-workflow.service → /usr/lib/systemd/system/ky_dsc_valautostup-workflow.service.
+[2020-02-27 06:22:37] INFO : 49/58 Set up services for Material.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_material_management.service → /usr/lib/systemd/system/ky_material_management.service.
+[2020-02-27 06:22:37] INFO : 50/58 Set up services for Material2.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_material_linkage_ansible.service → /usr/lib/systemd/system/ky_material_linkage_ansible.service.
+[2020-02-27 06:22:38] INFO : 51/58 Set up services for Material3.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_material_linkage_openstack.service → /usr/lib/systemd/system/ky_material_linkage_openstack.service.
+[2020-02-27 06:22:39] INFO : 52/58 Set up services for Material5.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_material_linkage_dsc.service → /usr/lib/systemd/system/ky_material_linkage_dsc.service.
+[2020-02-27 06:22:39] INFO : 53/58 Set up services for Createparam.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_create_param_menu_execute.service → /usr/lib/systemd/system/ky_create_param_menu_execute.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_change_col_to_row.service → /usr/lib/systemd/system/ky_change_col_to_row.service.
+[2020-02-27 06:22:40] INFO : 54/58 Set up services for Hostgroup.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_hostgroup_split.service → /usr/lib/systemd/system/ky_hostgroup_split.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_hostgroup_check_loop.service → /usr/lib/systemd/system/ky_hostgroup_check_loop.service.
+[2020-02-27 06:22:41] INFO : 55/58 Set up services for Hostgroup2.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_hostgroup_make_var.service → /usr/lib/systemd/system/ky_hostgroup_make_var.service.
+[2020-02-27 06:22:42] INFO : 56/58 Set up services for Hostgroup3.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_hostgroup_regist_var_legacy.service → /usr/lib/systemd/system/ky_hostgroup_regist_var_legacy.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ky_hostgroup_regist_var_legacy_role.service → /usr/lib/systemd/system/ky_hostgroup_regist_var_legacy_role.service.
+[2020-02-27 06:22:43] INFO : 57/58 Modify Apache(httpd) configuration file.
+[2020-02-27 06:22:43] INFO : 58/58 Restart Apache(httpd) service.
+● httpd.service - The Apache HTTP Server
+   Loaded: loaded (/usr/lib/systemd/system/httpd.service; enabled; vendor preset: disabled)
+  Drop-In: /usr/lib/systemd/system/httpd.service.d
+           └─php-fpm.conf
+   Active: reloading (reload) since Thu 2020-02-27 06:22:45 UTC; 26ms ago
+     Docs: man:httpd.service(8)
+ Main PID: 23438 (httpd)
+   Status: "Reading configuration..."
+    Tasks: 1 (limit: 4998)
+   Memory: 9.4M
+   CGroup: /system.slice/httpd.service
+           └─23438 /usr/sbin/httpd -DFOREGROUND
+
+Feb 27 06:22:45 ip-172-31-46-106.ap-south-1.compute.internal systemd[1]: Starting The Apache HTTP Server...
+Feb 27 06:22:45 ip-172-31-46-106.ap-south-1.compute.internal systemd[1]: Started The Apache HTTP Server.
+[2020-02-27 06:22:45] INFO : Installation complete!

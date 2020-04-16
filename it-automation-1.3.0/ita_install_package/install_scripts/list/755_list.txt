@@ -1,0 +1,9 @@
+/ita-root/backyards/ansible_driver/ky_pionner_grep_side_Ansible.sh
+/ita-root/backyards/ansible_driver/ky_pionner_kill_side_Ansible.sh
+/ita-root/backyards/common/ky_execinstance_dataautoclean-workflow.sh
+/ita-root/backyards/common/ky_file_autoclean-workflow.sh
+/ita-root/backyards/common/ky_loopcall-php-procedure.sh
+/ita-root/backyards/common/ky_loopcall-sh-script.sh
+/ita-root/backyards/webdbcore/ky_mail.sh
+/ita-root/libs/backyardlibs/material/ky_cloneGit.sh
+/ita-root/libs/backyardlibs/material/ky_pushGit.sh
